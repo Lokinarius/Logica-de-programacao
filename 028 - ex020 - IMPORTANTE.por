@@ -18,7 +18,7 @@ programa
 		escreva("\nQuanto de dinheiro você possui? R$")
 		leia(dinheiro)
 		//Saída de dados
-		se(hora <= 15 e dinheiro > preco ){
+		se(hora <= 15 e dinheiro >= preco ){
 			escreva("Você consegue comprar o ingresso. SEJA BEM-VINDO(A)!")
 		}senao{
 			escreva("Infelizmente, não é possivel comprar o ingresso")
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 547; 
+ * @POSICAO-CURSOR = 649; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

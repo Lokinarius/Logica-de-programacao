@@ -1,5 +1,6 @@
 programa
 {	
+	inclua biblioteca Calendario --> cal
 	funcao inicio()
 	{
 		//Declaração de variaveis
@@ -7,7 +8,7 @@ programa
 		//Entrada de dados
 		escreva("Em que ano você nasceu? ")
 		leia(ano)
-		idade = 2024 - ano
+		idade = cal.ano_atual() - ano
 		escreva(" Você tem tem ", idade, ", certo? Seja bem vindo(a) ao Banco! \n")
 		se( idade >= 60){
 			escreva("--------ATENÇÃO! DIRIJA-SE PARA FILA PREFERENCIAL--------")
@@ -19,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 251; 
+ * @POSICAO-CURSOR = 214; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

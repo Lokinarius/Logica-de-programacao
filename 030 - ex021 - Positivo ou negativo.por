@@ -9,12 +9,13 @@ programa
 		escreva("Digite um número: ")
 		leia(numero)
 		//Saída de dados
+		escreva("O numero digitado é ")
 		se(numero > 0){
-			escreva("Você digitou um número POSITIVO")
+			escreva("POSITIVO")
 		}senao se(numero < 0){
-			escreva("Você digitou um número NEGATIVO")
+			escreva("NEGATIVO")
 		}senao{
-			escreva("Você digitou um número NULO")
+			escreva("NULO")
 		}
 	}
 }
@@ -23,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 356; 
+ * @POSICAO-CURSOR = 310; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

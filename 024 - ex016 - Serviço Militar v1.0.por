@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Calendario --> c
 	funcao inicio()
 	{
 		//Declaração de variaveis
@@ -8,7 +8,7 @@ programa
 		//Entrada de dados
 		escreva("em que ano você nasceu? ")
 		leia(ano)
-		idade = 2024 - ano
+		idade = c.ano_atual() - ano
 		//Saída de dados
 		escreva("----------------------------")
 		se( idade >= 18){
@@ -25,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 387; 
+ * @POSICAO-CURSOR = 210; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

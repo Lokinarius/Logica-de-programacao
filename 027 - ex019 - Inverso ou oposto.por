@@ -12,7 +12,7 @@ programa
 		leia(num)
 		//Calculos
 		inverso = 1/num
-		oposto = num - (num * 2)
+		oposto = num * (-1)
 		//Saída de dados
 		se(num < 0){
 			escreva("O oposto de ", num, " é igual a ", oposto)
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 261; 
+ * @POSICAO-CURSOR = 254; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
