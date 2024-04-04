@@ -3,10 +3,10 @@ programa
 	
 	funcao inicio()
 	{
-		//Declaração de variaveis
+		//Declaraﾃｧﾃ｣o de variaveis
 		caracter operacao
 		inteiro num1, num2
-		//Cabeçalho
+		//Cabeﾃｧalho
 		escreva("=====================\n")
 		escreva("+\tADIÇÃO\n")
 		escreva("-\tSUBTRAÇÃO\n")
@@ -23,7 +23,7 @@ programa
 		escreva("Digite o segundo número: ")
 		leia(num2)
 		escreva("-------------------------\n")
-		escreva("Calculando o valor de ", num1, operacao, num2)
+		escreva("Calculando o valor de ", num1," ", operacao," ", num2)
 		//Switch, Calculos e saida de dados
 		escolha(operacao){
 			caso '+':
@@ -39,7 +39,7 @@ programa
 				escreva("\nO resultado da DIVISÃO = ", num1 / num2)
 				pare
 			caso contrario:
-				escreva("\nNão foi possível realizar a operação. Tente novamente.")
+				escreva("\não foi possíｭvel realizar a operação. Tente novamente.")
 				pare
 		}
 	}
@@ -49,7 +49,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1158; 
+ * @POSICAO-CURSOR = 118; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
