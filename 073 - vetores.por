@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
@@ -15,19 +15,19 @@ programa
 				certo++
 			}
 		}
-		escreva("Os números digitados foram ")
+		escreva("Os números sorteados foram ")
 		para(inteiro c=0;c<5;c++){
 			escreva(numero[c]," -> ")
 		}
 		escreva("\nVocê acertou ",certo," vezes")
 	}
-} 
+} 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 410; 
+ * @POSICAO-CURSOR = 321; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {numero, 7, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
